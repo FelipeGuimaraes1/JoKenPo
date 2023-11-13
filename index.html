@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&display=swap" rel="stylesheet">
+    <title>JoKenPo</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jo Ken Po</h1>
+
+        <div class="buttons">
+            <button id="rock" onclick="playHuman('rock')">&#x1F44A;</button>
+            <button id="paper" onclick="playHuman('paper')">&#x1F590;</button>
+            <button id="scissors" onclick="playHuman('scissors')">&#x270C;</button>
+        </div>
+
+        <p class="result"></p>
+        <p class="my-score">Sua pontuação: <span id="human-score">0</span></p>
+        <p class="machine-score">Pontuação da máquina: <span id="machine-score">0</span></p>
+    </div>
+
+    <div class="background-container">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds"></div>
+    </div>
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
