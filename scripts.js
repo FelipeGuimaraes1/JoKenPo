@@ -24,8 +24,6 @@ const playMachine = () => {
 
 const playTheGame = (human, machine) => {
 
-    console.log("Você: " + human + "Máquina: " + machine)
-
     if (human === machine) {
         result.style.color = "wheat"
         result.innerHTML = "Deu empate!"
